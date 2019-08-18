@@ -10,6 +10,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        pytoki=pytoki:cli
+        pytoki=pytoki.pytoki:cli
     ''',
 )
