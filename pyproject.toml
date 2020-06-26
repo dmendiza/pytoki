@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pytoki"
+version = "0.1.0"
+description = "Cryptoki (PKCS#11) for Python"
+authors = ["Douglas Alejandro Mendizábal <douglas@redrobot.io>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+cffi = "^1.14.0"
+click = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+pytoki = "pytoki.cli:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
